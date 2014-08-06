@@ -1,6 +1,6 @@
 # Assignments and Starter Files for FEWD6
 
-This repository contains all the assignments and starter files edited and created by {{your name here}} as part of the FEWD6 course at [General Assembly](https://generalassemb.ly/) in Washington, DC.
+This repository contains all the assignments and starter files edited and created by {{Sandra Ospina}} as part of the FEWD6 course at [General Assembly](https://generalassemb.ly/) in Washington, DC.
 
 To make commits and send those straight to GitHub, we'll be using the GitHub Git Client, which is available for [Mac](http://mac.github.com) and [Windows](http://windows.github.com).
 
