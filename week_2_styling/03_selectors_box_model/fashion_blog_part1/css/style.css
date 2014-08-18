@@ -1,0 +1,52 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 75px 50px 0px 50px;
+	border-left: 3px solid #eee;
+	padding-left: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+}
+
+nav {
+	margin-bottom: 50px;
+}
+
+nav > a {
+	color: #ddd;
+	border-bottom: 1px solid #ddd;
+	font-size: 18px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+}
+
+a {
+	color: #D00;
+	text-decoration: none;
+}
+
+h1 {
+	color: #D00;
+	font-size: 50px;
+	margin-bottom: 50px;
+	font-weight: 100;
+}
+
+h2 {
+	color: #444;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #ddd;
+}
+
+h2 > a {
+	color: #444;
+	font-size: 24px;
+}
