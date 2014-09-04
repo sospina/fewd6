@@ -1,0 +1,93 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+html {
+  font-size: 18px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+}	
+
+.top-bar {
+	font-size: 1.2rem;
+	position: fixed;
+	background-color: #fff;
+	border-bottom: 3px solid #000;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	z-index: 1;
+}
+
+.top-nav > a {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	margin-right: 25px;
+
+}
+
+.logo {
+	position: absolute;
+	top: 1.23em;
+	left: 15px;
+
+}
+
+.gallery-nav > a {
+	float: left;
+	width: 25%;
+	overflow: hidden;
+}
+
+.gallery-nav img {
+	display: block;
+	position: relative;
+	left: -130px;
+	top: 50px;
+}
+
+.gallery-nav > a h1 {
+	font-size: 1.3em;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	z-index: 2;
+	display: inline-block;
+	position: relative;
+	top: -150px;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #000;
+}
+
+@media only screen and (max-width: 1115px) {
+  	body {
+    	background: red;
+  	}
+  
+	.top-nav > a {
+    	color: purple;
+  	}
+
+  	.top-bar {
+  		font-size: .8rem;
+  	}
+
+  	.gallery-nav > a h1 {
+  		font-size: .9em;
+}
