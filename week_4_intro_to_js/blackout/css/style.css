@@ -1,3 +1,13 @@
 body.dark {
   background: black;
 }
+
+button {
+	background-color: red;
+	border: 3px solid black;
+}
+
+.light_switch {
+	font-color: white;
+	font-weight: bold;
+}
