@@ -40,6 +40,10 @@ body {
 	background-color: #fff;
 }
 
+.hidden {
+	display: none;
+}
+
 /* Module Classes */
 
 .main-container {
@@ -349,4 +353,45 @@ footer {
 .copyright {
 	margin-top: 15px;
 	font-size: 0.7em;
+}
+
+.lightbox-background {
+	background-color: #000;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 3;
+}
+
+.lightbox {
+	z-index: 4;
+	position: fixed;
+	top: 50%;
+	background-color: black;
+	color: white;
+	left: 50%;
+
+}
+
+.lightbox-top-bar {
+	text-align: right;
+}
+
+.lightbox-image {
+	height: 400px;
+}
+
+.lightbox-bottom-bar {
+	text-align: center;
+}
+
+.lightbox-top-bar, .lightbox-bottom-bar {
+font-size: 1.2em;
+}
+
+.lightbox-next, .lightbox-prev, .lightbox-exit {
+	display: inline-block;
+	padding: 8px;
 }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+		<title>GA Application Form</title>
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	
+
+	<form>
+	<div class="topBar">Course Application</div>
+	<div class="formContainer">
+		<h2>Your Contact Info</h2>
+		<fieldset>
+	  		<label for="yourName">Your Name</label>
+		<div class="input-group">
+			<input type="text" name="fname" placeholder="First name">
+			<input type="text" name="lname" placeholder="Last name">
+		</div>
+		</fieldset>
+		<fieldset>
+			<label for="phoneNumber">Phone Number</label>
+			<div class="input-group">
+			<input type="tel" name="usrtel" size="3"> - <input type="tel" name="usrtel" size="3"> - <input type="tel" name="usrtel" size="4">
+			</div>
+		</fieldset>
+		<fieldset>
+			<label for="Address">Address</label>
+			<div class="input-group">
+			<input type="text" placeholder="Street Address" size="35"><br>
+			<input type="text" placeholder="Address Line2" size="35"><br>
+			<input type="text" placeholder="City" size="15">
+			<input type="text" placeholder="State" size="2">
+			<input type="text" placeholder="Zip" size="5">
+			</div>
+		</fieldset>
+
+
+		<h2>Skills &amp; Interests</h2>
+		<fieldset>
+			<label for="course">Course</label>
+			<div class="input-group">
+			<select>
+				<option value="SelectOne" disabled selected>Select One</option>
+				<optgroup label="Web Development">
+					<option value="frontEnd">Front End</option>
+					<option value="backEnd">Back End</option>
+				</optgroup>
+				<optgroup label="Design">
+					<option value="visualDesign">Visual Design</option>
+					<option value="userExperience">User Experience</option>
+				</optgroup>
+				</div>
+			</select>
+		</fieldset>
+		<fieldset>
+			<label for="pastExperience">Past Experience</label>
+			<div class="input-group">
+			<textarea rows="4" cols="50"></textarea></div>
+		</fieldset>
+
+			<h2>Anything Else</h2>
+		<fieldset>
+			<label for="referral">Referral</label>
+			<div class="input-group">
+			<select>
+				<option value="none">None</option>
+				<option value="friend">Friend</option>
+				<option value="instructor">Instructor</option>
+				<option value="online">Online</option>
+			</select></div>
+		</fieldset>
+		<fieldset>
+			<label for="comments">Comments</label>
+			<div class="input-group">
+			<textarea rows="6" cols="75"></textarea>
+			</div>
+		</fieldset>
+			<br>
+
+			<input type="submit" value="Save Draft">
+	  		<input type="submit" value="Submit">
+	</div>
+</form>
+
+
+	</body>
+</html>
